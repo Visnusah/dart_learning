@@ -1,7 +1,6 @@
-//Write a dart program to check whether a character is a vowel or consonant.
-
+// Write a dart program to check whether a character is a vowel or consonant.
 void main(){
-  print(checkVovelOrConsonant("i"));
+  checkVovelOrConsonant("i");
 }
 
 String checkVovelOrConsonant(String character){
@@ -12,4 +11,11 @@ String checkVovelOrConsonant(String character){
   }
   return character;
 }
+
+// output :
+// i is Vowel
+// i
+
+// output
+// after fix: i is vowel
 
