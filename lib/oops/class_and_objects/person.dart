@@ -3,6 +3,7 @@ class Person {
   String name;
   int age;
   bool status;
+  
 
   // constructor: no return type
   Person({required this.name, required this.age, required this.status});
